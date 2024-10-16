@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
-    
+
 
     public static String cleanText(String url) throws IOException {
         String content = new String(Files.readAllBytes(Paths.get(url)));
